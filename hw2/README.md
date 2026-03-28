@@ -7,7 +7,7 @@
 The following libraries will be used in this assignment:
 
 ```python
-os, cv2, numpy, matplotlib, scipy
+pip install numpy matplotlib scipy opencv-python
 ```
 
 > ⚠️ **Notice:**  
@@ -20,6 +20,10 @@ os, cv2, numpy, matplotlib, scipy
 
 - `hw2.py` — Main execution file  
 - `Harris_Corner_Detection.py` — Function implementation file
+**The program will automatically:**
+1. Load the input image
+2. Perform Harris Corner Detection
+3. Save all intermediate and final results
 
 ---
 
@@ -107,10 +111,18 @@ The `results/` directory contains five subfolders, each corresponding to an outp
 ## 🖼️ 6. Workflow Summary
 **The Harris corner detection pipeline in this homework follows these steps:**
 
-1. Apply Gaussian smoothing to the grayscale image
-2. Compute image gradients in horizontal and vertical directions
-3. Compute the structure tensor and Harris response
-4. Apply non-maximum suppression to keep strong local corner points
-5. Visualize and save the detected corners on the image
+Input Image
+   ↓
+Gaussian Smoothing
+   ↓
+Gradient Computation (Sobel)
+   ↓
+Structure Tensor
+   ↓
+Harris Response
+   ↓
+Non-Maximum Suppression (NMS)
+   ↓
+Final Corner Points
 
 - This workflow is also applied to the rotated and scaled versions of the original image.
