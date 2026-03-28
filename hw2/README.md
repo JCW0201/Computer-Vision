@@ -82,17 +82,17 @@ The `results/` directory contains five subfolders, each corresponding to an outp
 **Contains 2 images:**
 - Structure tensor with window size **3×3**
 ![NMS WS=3](./results/Structure%20tensor%20+%20NMS%20results/NMS_window_size_3.jpg)
-*Figure 6. NMS WS=3*
+*Figure 7. NMS WS=3*
 - Structure tensor with window size **30×30**
 ![NMS WS=30](./results/Structure%20tensor%20+%20NMS%20results/NMS_window_size_30.jpg)
-*Figure 7. NMS WS=30*
+*Figure 8. NMS WS=30*
 ---
 
 ### 📂 (4) `Final results of rotating`
 **Contains 1 image:**
 - Image rotated by **30°**
 ![Rotate](./results/Final%20results%20of%20rotating/Rotate_30.jpg)
-*Figure 8. Rotate*
+*Figure 9. Rotate*
 ---
 
 ### 📂 (5) `Final results of scaling`
@@ -100,6 +100,6 @@ The `results/` directory contains five subfolders, each corresponding to an outp
 **Contains 1 image:**
 - Image scaled to **0.5×**
 ![Scale](./results/Final%20results%20of%20scaling/Scaling.jpg)
-*Figure 9. Scaling*
+*Figure 10. Scaling*
 ---
 
