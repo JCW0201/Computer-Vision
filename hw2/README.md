@@ -7,7 +7,7 @@
 The following libraries will be used in this assignment:
 
 ```python
-pip install numpy matplotlib scipy opencv-python
+`pip install numpy matplotlib scipy opencv-python`
 ```
 
 > ⚠️ **Notice:**  
