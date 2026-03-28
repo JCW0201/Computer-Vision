@@ -56,9 +56,10 @@ The `results/` directory contains five subfolders, each corresponding to an outp
 **Contains 2 images:**
 - Gaussian smoothing with **σ = 5**, kernel size = **5**
 ![Gaussian Smoothing Results K=5](./results/Gaussian%20smooth%20results/gaussian_smooth_of_sigma_and_kernal_size_5.jpg)
+*Figure 1. Gaussian Smoothing Results (Kernel size = 5)*
 - Gaussian smoothing with **σ = 5**, kernel size = **10**
 ![Gaussian Smoothing Results K =10](./results/Gaussian%20smooth%20results/gaussian_smooth_of_sigma_and_kernal_size_10.jpg)
-
+*Figure 2. Gaussian Smoothing Results (Kernel size = 10)*
 ---
 
 ### 📂 (2) `Sobel edge detection results`
@@ -66,11 +67,14 @@ The `results/` directory contains five subfolders, each corresponding to an outp
 **Contains 4 images:**
 - **Gradient Magnitude** using Gaussian kernel size 5 and 10 → 2 images
 ![Gradient Magnitude K=5](./results/Sobel%20edge%20detection%20results/magnitude_of_gradient_kernel_size_5.jpg)
+*Figure 3. Gradient Magnitude (Kernel size = 5)*
 ![Gradient Magnitude K=10](./results/Sobel%20edge%20detection%20results/magnitude_of_gradient_kernel_size_10.jpg)  
+*Figure 4. Gradient Magnitude (Kernel size = 10)*
 - **Gradient Direction** using Gaussian kernel size 5 and 10 → 2 images
 ![Gradient Direction K=5](./results/Sobel%20edge%20detection%20results/direction_of_gradient_kernel_size_5.jpg)
+*Figure 5. Gradient Direction (Kernel size = 5)*
 ![Gradient Direction K=10](./results/Sobel%20edge%20detection%20results/direction_of_gradient_kernel_size_10.jpg)
-
+*Figure 6. Gradient Direction (Kernel size = 10)*
 ---
 
 ### 📂 (3) `Structure tensor + NMS results`
@@ -78,14 +82,17 @@ The `results/` directory contains five subfolders, each corresponding to an outp
 **Contains 2 images:**
 - Structure tensor with window size **3×3**
 ![NMS WS=3](./results/Structure%20tensor%20+%20NMS%20results/NMS_window_size_3.jpg)
+*Figure 6. NMS WS=3*
 - Structure tensor with window size **30×30**
 ![NMS WS=30](./results/Structure%20tensor%20+%20NMS%20results/NMS_window_size_30.jpg)
+*Figure 7. NMS WS=30*
 ---
 
 ### 📂 (4) `Final results of rotating`
 **Contains 1 image:**
 - Image rotated by **30°**
 ![Rotate](./results/Final%20results%20of%20rotating/Rotate_30.jpg)
+*Figure 8. Rotate*
 ---
 
 ### 📂 (5) `Final results of scaling`
@@ -93,5 +100,6 @@ The `results/` directory contains five subfolders, each corresponding to an outp
 **Contains 1 image:**
 - Image scaled to **0.5×**
 ![Scale](./results/Final%20results%20of%20scaling/Scaling.jpg)
+*Figure 9. Scaling*
 ---
 
