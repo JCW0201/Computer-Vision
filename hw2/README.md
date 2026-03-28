@@ -101,5 +101,16 @@ The `results/` directory contains five subfolders, each corresponding to an outp
 - Image scaled to **0.5×**
 ![Scale](./results/Final%20results%20of%20scaling/Scaling.jpg)
 *Figure 10. Scaling*
+
 ---
 
+## 🖼️ 6. Workflow Summary
+**The Harris corner detection pipeline in this homework follows these steps:**
+
+1. Apply Gaussian smoothing to the grayscale image
+2. Compute image gradients in horizontal and vertical directions
+3. Compute the structure tensor and Harris response
+4. Apply non-maximum suppression to keep strong local corner points
+5. Visualize and save the detected corners on the image
+
+- This workflow is also applied to the rotated and scaled versions of the original image.
