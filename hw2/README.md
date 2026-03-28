@@ -111,18 +111,18 @@ The `results/` directory contains five subfolders, each corresponding to an outp
 ## 🖼️ 6. Workflow Summary
 **The Harris corner detection pipeline in this homework follows these steps:**
 
-Input Image
-   ↓
-Gaussian Smoothing
-   ↓
-Gradient Computation (Sobel)
-   ↓
-Structure Tensor
-   ↓
-Harris Response
-   ↓
-Non-Maximum Suppression (NMS)
-   ↓
-Final Corner Points
+Input Image<br>
+   ↓<br>
+Gaussian Smoothing<br>
+   ↓<br>
+Gradient Computation (Sobel)<br>
+   ↓<br>
+Structure Tensor<br>
+   ↓<br>
+Harris Response<br>
+   ↓<br>
+Non-Maximum Suppression (NMS)<br>
+   ↓<br>
+Final Corner Points<br>
 
 - This workflow is also applied to the rotated and scaled versions of the original image.
